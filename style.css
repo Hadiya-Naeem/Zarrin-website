@@ -1,0 +1,199 @@
+:root{
+    --secondary:#7C4EE4;
+    --textcolor:#333333;
+    --pcolor: #666666;
+    --bgcolor:#F5F7FA;
+}
+@font-face {
+    font-family: Raleway;
+    src: url(./fonts/Raleway-VariableFont_wght.ttf);
+}
+
+/* headder start */
+
+.navbutton{
+ background-color: var(--secondary) !important;
+ padding: 10px 30px;
+ border-radius: 5px;
+ 
+}
+.navbutton:hover{
+    background-color:#6f46ce  !important;
+    padding: 11px 31px;
+}
+.navAbout{
+    color: var(--textcolor);
+}
+.navBlog{
+    color: var(--secondary);
+}
+/* header end */
+
+
+/* hero section start */
+
+.herobg{
+    background-color: var(--secondary);
+}
+.herobtn{
+    padding: 10px 30px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.herobtn:hover{
+    padding: 11px 31px;
+    background-color: #6f46ce;
+}
+.herop{
+    font-size: 16px;
+    font-weight: 400;
+    width: 100%;
+    font-family: Raleway;
+}
+.heading{
+    width: 100%;
+    font-size: 53px;
+    font-weight: 700;
+    font-family: Raleway;
+}
+
+/* hero section end */
+
+/* post section start*/
+
+
+.postbtn{
+    outline: none;
+    border: none;
+    background: white;
+    color: var(--secondary) !important;
+     padding: 10px 30px;
+    font-size: 14px;
+    font-weight: 700;
+    border:  1px solid #7C4EE4;
+}
+.postbtn:hover{
+      padding: 11px 31px;
+        /* border:  1px solid #7C4EE4; */
+        background: var(--secondary);
+         color: white !important;
+}
+.postheading{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Raleway;
+    color: var(--textcolor) !important;
+    
+}
+.postp{
+      font-size: 13px;
+    font-weight: 400;
+    font-family: Raleway;
+    color: var(--pcolor);
+}
+.postspan{
+    color: var(--pcolor);
+    font-size: 10px;
+    padding-left: 10px;
+}
+.posth6{
+     color: var(--textcolor) !important;
+}
+.post{
+    background-color:var(--bgcolor) ;
+}
+.mainpost{
+    color: var(--textcolor);
+    font-weight: bold;
+    font-size: 48px;
+}
+
+
+.card-title{
+    font-family: Raleway;
+    color: var(--textcolor) !important;
+    font-size: 20px !important;
+    font-weight: 700;
+}
+.card-text{
+    color: var(--pcolor);
+    font-size: 14px;
+}
+.cards{
+    border: none;
+  background-color: var(--bgcolor);
+
+}
+.carddate{
+    font-size: 12px;
+}
+.posta{
+    color: var(--secondary);
+}
+
+/* post section end*/
+
+/* footer start*/
+
+.footerlwidth{
+    width: 10%;
+}
+.anchor{
+    color: var(--textcolor) !important;
+}
+.borderfooter{
+    border-bottom: 1px solid #7C4EE4;
+}
+
+/* footer end*/
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    .herop{
+        width: 325px;
+    }
+    .gapdiv{
+        gap: 30px;
+    }
+    .heading{
+       font-size: 33px;
+    }
+    .mainpost{
+        font-size: 40px;
+    }
+    .postheading{
+        font-size: 20px;
+    }
+    .footerlwidth{
+    width: 30%;
+}
+.footerul{
+    gap: 25px !important;
+}
+
+
+  
+}
+
+@media screen and (min-width:576px) and (max-width:768px) {
+   .herop{
+        width: 690px;
+    }
+    .postheading{
+        font-size: 38px;
+    }
+    .gapdiv{
+        gap: 30px;
+    }
+
+
+}
